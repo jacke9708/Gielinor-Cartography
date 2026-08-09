@@ -234,7 +234,11 @@ class GielinorCartographyTasksPanel extends JPanel
 				}
 				return "Owned by you";
 			case AVAILABLE:
-				return "Available (was " + state.owner + ")";
+				// state.owner still IS the current owner - the cooldown expiring only means
+				// it's now stealable, not that ownership already changed. "was" reads as past
+				// tense and implies they no longer own it, which is wrong until someone actually
+				// steals it.
+				return "Available (still owned by " + state.owner + ")";
 			case LOCKED:
 				long remainingSeconds = Math.max((state.lastTaken + state.cooldownSeconds) - System.currentTimeMillis() / 1000, 0);
 				return "Locked by " + state.owner + " (" + (remainingSeconds / 60) + "m left)";
