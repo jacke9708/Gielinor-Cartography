@@ -1,0 +1,14 @@
+[Unit]
+Description=Gielinor Cartography backend
+After=network.target
+
+[Service]
+Type=simple
+User=jakobserver
+WorkingDirectory=/home/jakobserver/Gielinor-Cartography/backend
+ExecStart=/usr/bin/python3 server.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

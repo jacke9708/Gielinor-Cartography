@@ -14,7 +14,7 @@ repositories {
 }
 
 def runeLiteVersion = 'latest.release'
-def pluginMainClass = 'com.example.ExamplePluginTest'
+def pluginMainClass = 'com.gielinorcartography.GielinorCartographyPluginTest'
 
 dependencies {
 	compileOnly group: 'net.runelite', name:'client', version: runeLiteVersion
@@ -27,11 +27,17 @@ dependencies {
 	testImplementation group: 'net.runelite', name:'jshell', version: runeLiteVersion
 }
 
-group = 'com.example'
+group = 'com.gielinorcartography'
 
 tasks.withType(JavaCompile).configureEach {
 	options.encoding = 'UTF-8'
 	options.release.set(11)
+}
+
+// tasks.json lives at the project root (not src/main/resources) so it's the one file the
+// Python backend also reads directly - this just tells the plugin's jar to bundle it too.
+tasks.named('processResources') {
+	from(rootProject.file('tasks.json'))
 }
 
 tasks.register('run', JavaExec) {

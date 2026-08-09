@@ -7,3 +7,7 @@ build
 nbactions.xml
 nb-configuration.xml
 nbproject/
+
+# backend
+backend/__pycache__/
+backend/*.db

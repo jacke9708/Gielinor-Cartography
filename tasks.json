@@ -1,0 +1,2445 @@
+[
+	{
+		"id": "lumbridge_test_zone",
+		"displayName": "Lumbridge Courtyard",
+		"area": {
+			"x1": 3210,
+			"y1": 3210,
+			"x2": 3229,
+			"y2": 3229,
+			"plane": 0
+		},
+		"completionType": "HOLD",
+		"holdSeconds": 10,
+		"region": "Misthalin"
+	},
+	{
+		"id": "lumbridge_cow_field",
+		"displayName": "Lumbridge Cow Field",
+		"area": {
+			"x1": 3241,
+			"y1": 3298,
+			"x2": 3265,
+			"y2": 3255,
+			"plane": 0
+		},
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "cows",
+		"targetNpcIds": [
+			2790,
+			2791,
+			2793
+		],
+		"region": "Misthalin"
+	},
+	{
+		"id": "corsair_cove_maple_trees",
+		"displayName": "Corsair Cove Maple Trees",
+		"area": {
+			"x1": 2476,
+			"y1": 2894,
+			"x2": 2484,
+			"y2": 2901,
+			"plane": 0
+		},
+		"completionType": "CHAT_MESSAGE_COUNT",
+		"requiredActions": 10,
+		"actionTargetLabel": "maple logs cut",
+		"messagePattern": "You get (?:some|an)[\\w ]+maple logs?\\.",
+		"region": "Kandarin"
+	},
+	{
+		"id": "varrock_rooftop_course",
+		"displayName": "Varrock Rooftop Course",
+		"area": {
+			"x1": 3221,
+			"y1": 3411,
+			"x2": 3225,
+			"y2": 3420,
+			"plane": 0
+		},
+		"completionType": "LOCATION_STAT_COUNT",
+		"requiredLaps": 5,
+		"statSkill": "AGILITY",
+		"finishPoints": [
+			{
+				"x": 3236,
+				"y": 3417,
+				"plane": 0
+			}
+		],
+		"region": "Misthalin"
+	},
+	{
+		"id": "draynor_sewers_anvil",
+		"displayName": "Draynor Sewers Anvil",
+		"area": {
+			"x1": 3108,
+			"y1": 9685,
+			"x2": 3116,
+			"y2": 9693,
+			"plane": 0
+		},
+		"completionType": "CHAT_MESSAGE_COUNT",
+		"requiredActions": 1,
+		"actionTargetLabel": "mithril kiteshield made",
+		"messagePattern": "You hammer the mithril and make a kiteshield\\.",
+		"region": "Misthalin"
+	},
+	{
+		"id": "body_golem_ruins_of_camdozaal",
+		"displayName": "Ruins of Camdozaal Body Golem",
+		"area": {
+			"x1": 3006,
+			"y1": 5793,
+			"x2": 3034,
+			"y2": 5821,
+			"plane": 0
+		},
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "body golems",
+		"targetNpcIds": [
+			10691,
+			10692
+		],
+		"region": "Asgarnia"
+	},
+	{
+		"id": "catablepon_stronghold_of_security_pit_of_pestilence",
+		"displayName": "Stronghold of Security: Pit of Pestilence Catablepon",
+		"area": {
+			"x1": 1941,
+			"y1": 4986,
+			"x2": 1972,
+			"y2": 5009,
+			"plane": 0
+		},
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "catablepons",
+		"targetNpcIds": [
+			2474,
+			2475,
+			2476
+		],
+		"region": "Misthalin"
+	},
+	{
+		"id": "cyclops_catacombs_of_kourend",
+		"displayName": "Catacombs of Kourend Cyclops",
+		"area": {
+			"x1": 1635,
+			"y1": 10002,
+			"x2": 1663,
+			"y2": 10032,
+			"plane": 0
+		},
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "cyclopses",
+		"targetNpcIds": [
+			7270,
+			7271
+		],
+		"region": "Great Kourend"
+	},
+	{
+		"id": "feral_vampyre_west_of_burgh_de_rott",
+		"displayName": "West of Burgh De Rott Feral Vampyre",
+		"area": {
+			"x1": 3449,
+			"y1": 3216,
+			"x2": 3471,
+			"y2": 3249,
+			"plane": 0
+		},
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "feral vampyres",
+		"targetNpcIds": [
+			3137,
+			3234,
+			3237,
+			3707,
+			5640,
+			5641,
+			5642
+		],
+		"region": "Morytania"
+	},
+	{
+		"id": "ghoul_south_of_the_slayer_tower",
+		"displayName": "South of the Slayer Tower Ghoul",
+		"area": {
+			"x1": 3403,
+			"y1": 3500,
+			"x2": 3429,
+			"y2": 3527,
+			"plane": 0
+		},
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "ghouls",
+		"targetNpcIds": [
+			289
+		],
+		"region": "Morytania"
+	},
+	{
+		"id": "giant_rock_crab_waterbirth_island_dungeon_sublevel_3",
+		"displayName": "Waterbirth Island Dungeon sublevel 3 Giant Rock Crab",
+		"area": {
+			"x1": 1820,
+			"y1": 4387,
+			"x2": 1858,
+			"y2": 4416,
+			"plane": 3
+		},
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "giant rock crabs",
+		"targetNpcIds": [
+			2261,
+			5940
+		],
+		"region": "Fremennik Province"
+	},
+	{
+		"id": "guard_desert_mining_camp",
+		"displayName": "Desert Mining Camp Guard",
+		"area": {
+			"x1": 3267,
+			"y1": 3009,
+			"x2": 3312,
+			"y2": 3044,
+			"plane": 0
+		},
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "guards",
+		"targetNpcIds": [
+			4660,
+			4661,
+			4662,
+			4664,
+			4665
+		],
+		"region": "Kharidian Desert"
+	},
+	{
+		"id": "harpie_bug_swarm_east_of_the_colossal_wyrm_remains",
+		"displayName": "East of the Colossal Wyrm Remains Harpie Bug Swarm",
+		"area": {
+			"x1": 1677,
+			"y1": 2892,
+			"x2": 1707,
+			"y2": 2921,
+			"plane": 0
+		},
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "harpie bug swarms",
+		"targetNpcIds": [
+			464
+		],
+		"region": "Varlamore"
+	},
+	{
+		"id": "jungle_wolf_kharazi_jungle",
+		"displayName": "Kharazi Jungle Jungle Wolf",
+		"area": {
+			"x1": 2766,
+			"y1": 2878,
+			"x2": 2950,
+			"y2": 2941,
+			"plane": 0
+		},
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "jungle wolves",
+		"targetNpcIds": [
+			232
+		],
+		"region": "Karamja"
+	},
+	{
+		"id": "nikita_canifis",
+		"displayName": "Canifis Nikita",
+		"area": {
+			"x1": 3470,
+			"y1": 3489,
+			"x2": 3488,
+			"y2": 3507,
+			"plane": 0
+		},
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 1,
+		"killTargetLabel": "nikitas",
+		"targetNpcIds": [
+			2629
+		],
+		"region": "Morytania"
+	},
+	{
+		"id": "stag_auburn_valley",
+		"displayName": "Auburn Valley Stag",
+		"area": {
+			"x1": 1482,
+			"y1": 3317,
+			"x2": 1522,
+			"y2": 3344,
+			"plane": 0
+		},
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 4,
+		"killTargetLabel": "stags",
+		"targetNpcIds": [
+			1845,
+			14222
+		],
+		"region": "Varlamore"
+	},
+	{
+		"id": "thief_phoenix_gang_hideout_under_varrock",
+		"displayName": "Phoenix Gang Hideout under Varrock Thief",
+		"area": {
+			"x1": 3228,
+			"y1": 9755,
+			"x2": 3260,
+			"y2": 9785,
+			"plane": 0
+		},
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "thieves",
+		"targetNpcIds": [
+			1448,
+			3252,
+			3253,
+			4247,
+			5217,
+			5218,
+			5219,
+			5220,
+			7914,
+			7915,
+			7916
+		],
+		"region": "Misthalin"
+	},
+	{
+		"id": "wyrm_karuulm_slayer_dungeon_lower_level_task_only",
+		"displayName": "Karuulm Slayer Dungeon - lower level (task-only) Wyrm",
+		"area": {
+			"x1": 1243,
+			"y1": 10138,
+			"x2": 1282,
+			"y2": 10168,
+			"plane": 0
+		},
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "wyrms",
+		"targetNpcIds": [
+			8610,
+			8611
+		],
+		"region": "Great Kourend"
+	},
+	{
+		"id": "abyssal_sire_abyssal_nexus",
+		"displayName": "Abyssal Nexus Abyssal Sire",
+		"area": {
+			"x1": 2958,
+			"y1": 4782,
+			"x2": 3116,
+			"y2": 4864,
+			"plane": 0
+		},
+		"region": "Other",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 8,
+		"killTargetLabel": "abyssal sires",
+		"targetNpcIds": [
+			5886,
+			5889,
+			5891,
+			5908
+		]
+	},
+	{
+		"id": "araxxor_morytania_spider_cave",
+		"displayName": "Morytania Spider Cave Araxxor",
+		"area": {
+			"x1": 3621,
+			"y1": 9804,
+			"x2": 3639,
+			"y2": 9822,
+			"plane": 0
+		},
+		"region": "Morytania",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 1,
+		"killTargetLabel": "araxxors",
+		"targetNpcIds": [
+			13668
+		]
+	},
+	{
+		"id": "archer_burthorpe_castle",
+		"displayName": "Burthorpe Castle Archer",
+		"area": {
+			"x1": 2883,
+			"y1": 3548,
+			"x2": 2914,
+			"y2": 3579,
+			"plane": 1
+		},
+		"region": "Asgarnia",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "archers",
+		"targetNpcIds": [
+			4096,
+			4097,
+			4098
+		]
+	},
+	{
+		"id": "aviansie_wilderness_god_wars_dungeon",
+		"displayName": "Wilderness God Wars Dungeon Aviansie",
+		"area": {
+			"x1": 2929,
+			"y1": 10097,
+			"x2": 2960,
+			"y2": 10132,
+			"plane": 0
+		},
+		"region": "Wilderness",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "aviansies",
+		"targetNpcIds": [
+			3169,
+			3170,
+			3171,
+			3172,
+			3173,
+			3174,
+			3175,
+			3176,
+			3177,
+			3178,
+			3179,
+			3180,
+			3181,
+			3182,
+			3183
+		]
+	},
+	{
+		"id": "bark_blamish_snail_mort_myre_swamp",
+		"displayName": "Mort Myre Swamp Bark Blamish Snail",
+		"area": {
+			"x1": 3421,
+			"y1": 3259,
+			"x2": 3539,
+			"y2": 3444,
+			"plane": 0
+		},
+		"region": "Morytania",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "bark blamish snails",
+		"targetNpcIds": [
+			2648
+		]
+	},
+	{
+		"id": "bedabin_nomad_fighter_bedabin_camp",
+		"displayName": "Bedabin Camp Bedabin Nomad Fighter",
+		"area": {
+			"x1": 3151,
+			"y1": 3021,
+			"x2": 3189,
+			"y2": 3042,
+			"plane": 0
+		},
+		"region": "Kharidian Desert",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "bedabin nomad fighters",
+		"targetNpcIds": [
+			4655
+		]
+	},
+	{
+		"id": "big_wolf_white_wolf_mountain",
+		"displayName": "White Wolf Mountain Big Wolf",
+		"area": {
+			"x1": 2831,
+			"y1": 3488,
+			"x2": 2849,
+			"y2": 3506,
+			"plane": 0
+		},
+		"region": "Asgarnia",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 1,
+		"killTargetLabel": "big wolfs",
+		"targetNpcIds": [
+			109,
+			115
+		]
+	},
+	{
+		"id": "black_guard_berserker_keldagrim",
+		"displayName": "Keldagrim Black Guard Berserker",
+		"area": {
+			"x1": 2814,
+			"y1": 10200,
+			"x2": 2834,
+			"y2": 10229,
+			"plane": 0
+		},
+		"region": "Fremennik Province",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 4,
+		"killTargetLabel": "black guard berserkers",
+		"targetNpcIds": [
+			6050,
+			6051,
+			6052
+		]
+	},
+	{
+		"id": "black_guard_berserker_keldagrim_upstairs_in_the_building_west_of_the_bank",
+		"displayName": "Keldagrim (Upstairs in the building west of the bank) Black Guard Berserker",
+		"area": {
+			"x1": 2818,
+			"y1": 10203,
+			"x2": 2836,
+			"y2": 10221,
+			"plane": 1
+		},
+		"region": "Fremennik Province",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 1,
+		"killTargetLabel": "black guard berserkers",
+		"targetNpcIds": [
+			6050,
+			6051,
+			6052
+		]
+	},
+	{
+		"id": "broddi_miscellania_castle_courtyard",
+		"displayName": "Miscellania Castle courtyard Broddi",
+		"area": {
+			"x1": 2503,
+			"y1": 3862,
+			"x2": 2521,
+			"y2": 3880,
+			"plane": 0
+		},
+		"region": "Fremennik Province",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 1,
+		"killTargetLabel": "broddis",
+		"targetNpcIds": [
+			3685
+		]
+	},
+	{
+		"id": "bronze_dragon_brimhaven_dungeon_task_only_area",
+		"displayName": "Brimhaven Dungeon (Task only area) Bronze dragon",
+		"area": {
+			"x1": 2623,
+			"y1": 9437,
+			"x2": 2655,
+			"y2": 9466,
+			"plane": 0
+		},
+		"region": "Karamja",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "bronze dragons",
+		"targetNpcIds": [
+			270,
+			7253
+		]
+	},
+	{
+		"id": "brutal_blue_dragon_catacombs_of_kourend_north_west",
+		"displayName": "Catacombs of Kourend (north-west) Brutal blue dragon",
+		"area": {
+			"x1": 1620,
+			"y1": 10062,
+			"x2": 1642,
+			"y2": 10086,
+			"plane": 0
+		},
+		"region": "Great Kourend",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 4,
+		"killTargetLabel": "brutal blue dragons",
+		"targetNpcIds": [
+			7273,
+			13795
+		]
+	},
+	{
+		"id": "cave_crawler_dorgesh_kaan_south_dungeon",
+		"displayName": "Dorgesh-Kaan South Dungeon Cave crawler",
+		"area": {
+			"x1": 2699,
+			"y1": 5194,
+			"x2": 2721,
+			"y2": 5233,
+			"plane": 0
+		},
+		"region": "Misthalin",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "cave crawlers",
+		"targetNpcIds": [
+			406,
+			407,
+			408,
+			409
+		]
+	},
+	{
+		"id": "cave_horror_mos_le_harmless_cave",
+		"displayName": "Mos Le'Harmless Cave Cave horror",
+		"area": {
+			"x1": 3708,
+			"y1": 9340,
+			"x2": 3841,
+			"y2": 9475,
+			"plane": 0
+		},
+		"region": "Morytania",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "cave horrors",
+		"targetNpcIds": [
+			1047,
+			1048,
+			1049,
+			1050,
+			1051
+		]
+	},
+	{
+		"id": "cerberus_cerberus_lair",
+		"displayName": "Cerberus' Lair Cerberus",
+		"area": {
+			"x1": 1229,
+			"y1": 1241,
+			"x2": 1375,
+			"y2": 1323,
+			"plane": 0
+		},
+		"region": "Asgarnia",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 6,
+		"killTargetLabel": "cerberuss",
+		"targetNpcIds": [
+			5862,
+			5863,
+			5866
+		]
+	},
+	{
+		"id": "chaos_druid_edgeville_dungeon_wilderness",
+		"displayName": "Edgeville Dungeon (Wilderness) Chaos druid",
+		"area": {
+			"x1": 3095,
+			"y1": 9916,
+			"x2": 3124,
+			"y2": 9952,
+			"plane": 0
+		},
+		"region": "Wilderness",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "chaos druids",
+		"targetNpcIds": [
+			520
+		]
+	},
+	{
+		"id": "chaos_elemental_west_of_the_rogues_castle",
+		"displayName": "West of the Rogues' Castle Chaos Elemental",
+		"area": {
+			"x1": 3252,
+			"y1": 3918,
+			"x2": 3270,
+			"y2": 3936,
+			"plane": 0
+		},
+		"region": "Wilderness",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 1,
+		"killTargetLabel": "chaos elementals",
+		"targetNpcIds": [
+			2054
+		]
+	},
+	{
+		"id": "chaos_fanatic_west_of_the_lava_maze",
+		"displayName": "West of the Lava Maze Chaos Fanatic",
+		"area": {
+			"x1": 2970,
+			"y1": 3837,
+			"x2": 2988,
+			"y2": 3855,
+			"plane": 0
+		},
+		"region": "Wilderness",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 1,
+		"killTargetLabel": "chaos fanatics",
+		"targetNpcIds": [
+			6619
+		]
+	},
+	{
+		"id": "chilled_jelly_grimstone_dungeon",
+		"displayName": "Grimstone Dungeon Chilled jelly",
+		"area": {
+			"x1": 2889,
+			"y1": 10435,
+			"x2": 2931,
+			"y2": 10490,
+			"plane": 0
+		},
+		"region": "Other",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "chilled jellys",
+		"targetNpcIds": [
+			13799
+		]
+	},
+	{
+		"id": "clivet_ardougne_sewers",
+		"displayName": "Ardougne Sewers Clivet",
+		"area": {
+			"x1": 2557,
+			"y1": 9674,
+			"x2": 2575,
+			"y2": 9692,
+			"plane": 0
+		},
+		"region": "Kandarin",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 1,
+		"killTargetLabel": "clivets",
+		"targetNpcIds": [
+			1206,
+			12049,
+			12095
+		]
+	},
+	{
+		"id": "cow_nightmare_zone",
+		"displayName": "Nightmare Zone Cow",
+		"area": {
+			"x1": 2595,
+			"y1": 3105,
+			"x2": 2613,
+			"y2": 3123,
+			"plane": 0
+		},
+		"region": "Kandarin",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 1,
+		"killTargetLabel": "cows",
+		"targetNpcIds": [
+			2790,
+			2791,
+			2793,
+			2795,
+			5842
+		]
+	},
+	{
+		"id": "crab_mogre_camp",
+		"displayName": "Mogre Camp Crab",
+		"area": {
+			"x1": 2963,
+			"y1": 9507,
+			"x2": 2993,
+			"y2": 9531,
+			"plane": 0
+		},
+		"region": "Kandarin",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "crabs",
+		"targetNpcIds": [
+			4819,
+			4822
+		]
+	},
+	{
+		"id": "cyclops_warriors_guild_basement",
+		"displayName": "Warriors' Guild (basement) Cyclops",
+		"area": {
+			"x1": 2833,
+			"y1": 9981,
+			"x2": 2883,
+			"y2": 10013,
+			"plane": 0
+		},
+		"region": "Asgarnia",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "cyclopss",
+		"targetNpcIds": [
+			2137,
+			2463,
+			2464
+		]
+	},
+	{
+		"id": "dagannoth_fledgeling_waterbirth_island_dungeon",
+		"displayName": "Waterbirth Island Dungeon Dagannoth fledgeling",
+		"area": {
+			"x1": 2590,
+			"y1": 9850,
+			"x2": 2612,
+			"y2": 9875,
+			"plane": 0
+		},
+		"region": "Fremennik Province",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "dagannoth fledgelings",
+		"targetNpcIds": [
+			2264
+		]
+	},
+	{
+		"id": "dagannoth_supreme_waterbirth_island_dungeon_slayer_lair",
+		"displayName": "Waterbirth Island Dungeon (Slayer lair) Dagannoth Supreme",
+		"area": {
+			"x1": 2673,
+			"y1": 9655,
+			"x2": 2691,
+			"y2": 9673,
+			"plane": 0
+		},
+		"region": "Fremennik Province",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 1,
+		"killTargetLabel": "dagannoth supremes",
+		"targetNpcIds": [
+			2265
+		]
+	},
+	{
+		"id": "dark_beast_mourner_tunnels",
+		"displayName": "Mourner Tunnels Dark beast",
+		"area": {
+			"x1": 1979,
+			"y1": 4623,
+			"x2": 2042,
+			"y2": 4673,
+			"plane": 0
+		},
+		"region": "Tirannwn",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "dark beasts",
+		"targetNpcIds": [
+			4005,
+			7250
+		]
+	},
+	{
+		"id": "deadly_red_spider_north_of_the_lava_maze",
+		"displayName": "North of the Lava Maze Deadly red spider",
+		"area": {
+			"x1": 3037,
+			"y1": 3862,
+			"x2": 3079,
+			"y2": 3906,
+			"plane": 0
+		},
+		"region": "Wilderness",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "deadly red spiders",
+		"targetNpcIds": [
+			3021
+		]
+	},
+	{
+		"id": "dire_bat_sangvesti",
+		"displayName": "Sangvesti Dire bat",
+		"area": {
+			"x1": 2561,
+			"y1": 7799,
+			"x2": 2629,
+			"y2": 7863,
+			"plane": 0
+		},
+		"region": "Other",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "dire bats",
+		"targetNpcIds": [
+			15757
+		]
+	},
+	{
+		"id": "disciple_of_iban_underground_pass_during_quest_platforms",
+		"displayName": "Underground Pass (during quest - platforms) Disciple of Iban",
+		"area": {
+			"x1": 2140,
+			"y1": 4626,
+			"x2": 2172,
+			"y2": 4671,
+			"plane": 0
+		},
+		"region": "Other",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "disciple of ibans",
+		"targetNpcIds": [
+			8997
+		]
+	},
+	{
+		"id": "elder_chaos_druid_chaos_temple_wilderness",
+		"displayName": "Chaos Temple (Wilderness) Elder Chaos druid",
+		"area": {
+			"x1": 3220,
+			"y1": 3598,
+			"x2": 3258,
+			"y2": 3625,
+			"plane": 0
+		},
+		"region": "Wilderness",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "elder chaos druids",
+		"targetNpcIds": [
+			6607
+		]
+	},
+	{
+		"id": "experiment_no_2_manhole_near_witch_s_house_grim_tales_quest",
+		"displayName": "Manhole near Witch's house (Grim Tales quest) Experiment No.2",
+		"area": {
+			"x1": 2891,
+			"y1": 9853,
+			"x2": 2929,
+			"y2": 9874,
+			"plane": 0
+		},
+		"region": "Asgarnia",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "experiment no.2s",
+		"targetNpcIds": [
+			5126
+		]
+	},
+	{
+		"id": "fiyr_shade_shade_catacombs",
+		"displayName": "Shade Catacombs Fiyr Shade",
+		"area": {
+			"x1": 3451,
+			"y1": 9686,
+			"x2": 3474,
+			"y2": 9730,
+			"plane": 0
+		},
+		"region": "Morytania",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "fiyr shades",
+		"targetNpcIds": [
+			1285,
+			1286
+		]
+	},
+	{
+		"id": "fortress_guard_black_knights_fortress",
+		"displayName": "Black Knights' Fortress Fortress Guard",
+		"area": {
+			"x1": 2999,
+			"y1": 3504,
+			"x2": 3027,
+			"y2": 3526,
+			"plane": 0
+		},
+		"region": "Asgarnia",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "fortress guards",
+		"targetNpcIds": [
+			4773
+		]
+	},
+	{
+		"id": "frenzied_ice_troll_grunt_ice_troll_caves",
+		"displayName": "Ice Troll Caves Frenzied ice troll grunt",
+		"area": {
+			"x1": 2374,
+			"y1": 10265,
+			"x2": 2403,
+			"y2": 10290,
+			"plane": 0
+		},
+		"region": "Fremennik Province",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 6,
+		"killTargetLabel": "frenzied ice troll grunts",
+		"targetNpcIds": [
+			5826
+		]
+	},
+	{
+		"id": "ghost_death_altar",
+		"displayName": "Death Altar Ghost",
+		"area": {
+			"x1": 2179,
+			"y1": 4809,
+			"x2": 2236,
+			"y2": 4864,
+			"plane": 0
+		},
+		"region": "Tirannwn",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "ghosts",
+		"targetNpcIds": [
+			85,
+			2527,
+			2531
+		]
+	},
+	{
+		"id": "giant_crypt_rat_barrows_tunnel",
+		"displayName": "Barrows tunnel Giant crypt rat",
+		"area": {
+			"x1": 3523,
+			"y1": 9683,
+			"x2": 3546,
+			"y2": 9706,
+			"plane": 0
+		},
+		"region": "Morytania",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 8,
+		"killTargetLabel": "giant crypt rats",
+		"targetNpcIds": [
+			1680,
+			1681,
+			1682
+		]
+	},
+	{
+		"id": "giant_rock_crab_isle_of_serpents",
+		"displayName": "Isle of Serpents Giant Rock Crab",
+		"area": {
+			"x1": 1829,
+			"y1": 2424,
+			"x2": 1864,
+			"y2": 2462,
+			"plane": 0
+		},
+		"region": "Other",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "giant rock crabs",
+		"targetNpcIds": [
+			2261,
+			5940
+		]
+	},
+	{
+		"id": "goat_west_of_nardah",
+		"displayName": "West of Nardah Goat",
+		"area": {
+			"x1": 3386,
+			"y1": 2876,
+			"x2": 3424,
+			"y2": 2943,
+			"plane": 0
+		},
+		"region": "Kharidian Desert",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "goats",
+		"targetNpcIds": [
+			1792,
+			1795
+		]
+	},
+	{
+		"id": "grave_scorpion_near_the_grave_of_scorpius",
+		"displayName": "Near the Grave of Scorpius Grave scorpion",
+		"area": {
+			"x1": 2456,
+			"y1": 3213,
+			"x2": 2481,
+			"y2": 3239,
+			"plane": 0
+		},
+		"region": "Kandarin",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "grave scorpions",
+		"targetNpcIds": [
+			5372
+		]
+	},
+	{
+		"id": "guard_dog_handelmort_mansion",
+		"displayName": "Handelmort Mansion Guard dog",
+		"area": {
+			"x1": 2615,
+			"y1": 3306,
+			"x2": 2655,
+			"y2": 3336,
+			"plane": 0
+		},
+		"region": "Kandarin",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 8,
+		"killTargetLabel": "guard dogs",
+		"targetNpcIds": [
+			114,
+			7209
+		]
+	},
+	{
+		"id": "guard_ranging_guild",
+		"displayName": "Ranging Guild Guard",
+		"area": {
+			"x1": 2646,
+			"y1": 3406,
+			"x2": 2691,
+			"y2": 3450,
+			"plane": 0
+		},
+		"region": "Kandarin",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "guards",
+		"targetNpcIds": [
+			6056
+		]
+	},
+	{
+		"id": "guard_south_of_coal_trucks",
+		"displayName": "South of Coal Trucks Guard",
+		"area": {
+			"x1": 2545,
+			"y1": 3447,
+			"x2": 2581,
+			"y2": 3485,
+			"plane": 0
+		},
+		"region": "Kandarin",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 8,
+		"killTargetLabel": "guards",
+		"targetNpcIds": [
+			5185,
+			5187
+		]
+	},
+	{
+		"id": "halla_north_east_of_miscellania_castle",
+		"displayName": "North-east of Miscellania Castle Halla",
+		"area": {
+			"x1": 2532,
+			"y1": 3887,
+			"x2": 2550,
+			"y2": 3905,
+			"plane": 0
+		},
+		"region": "Fremennik Province",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 1,
+		"killTargetLabel": "hallas",
+		"targetNpcIds": [
+			3678
+		]
+	},
+	{
+		"id": "ice_queen_ice_queen_s_lair",
+		"displayName": "Ice Queen's Lair Ice Queen",
+		"area": {
+			"x1": 2857,
+			"y1": 9947,
+			"x2": 2875,
+			"y2": 9965,
+			"plane": 0
+		},
+		"region": "Asgarnia",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 1,
+		"killTargetLabel": "ice queens",
+		"targetNpcIds": [
+			4922
+		]
+	},
+	{
+		"id": "ice_wolf_ice_path",
+		"displayName": "Ice Path Ice wolf",
+		"area": {
+			"x1": 2877,
+			"y1": 3711,
+			"x2": 2922,
+			"y2": 3771,
+			"plane": 0
+		},
+		"region": "Asgarnia",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "ice wolfs",
+		"targetNpcIds": [
+			645,
+			647
+		]
+	},
+	{
+		"id": "jackal_east_of_sophanem",
+		"displayName": "East of Sophanem Jackal",
+		"area": {
+			"x1": 3328,
+			"y1": 2770,
+			"x2": 3357,
+			"y2": 2793,
+			"plane": 0
+		},
+		"region": "Kharidian Desert",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "jackals",
+		"targetNpcIds": [
+			4185,
+			11583
+		]
+	},
+	{
+		"id": "jogre_god_wars_dungeon",
+		"displayName": "God Wars Dungeon Jogre",
+		"area": {
+			"x1": 2819,
+			"y1": 5308,
+			"x2": 2877,
+			"y2": 5371,
+			"plane": 0
+		},
+		"region": "Asgarnia",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "jogres",
+		"targetNpcIds": [
+			2094,
+			2234
+		]
+	},
+	{
+		"id": "joseph_canifis",
+		"displayName": "Canifis Joseph",
+		"area": {
+			"x1": 3465,
+			"y1": 3465,
+			"x2": 3483,
+			"y2": 3483,
+			"plane": 0
+		},
+		"region": "Morytania",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 1,
+		"killTargetLabel": "josephs",
+		"targetNpcIds": [
+			2616
+		]
+	},
+	{
+		"id": "kalphite_guardian_kalphite_lair",
+		"displayName": "Kalphite Lair Kalphite Guardian",
+		"area": {
+			"x1": 3198,
+			"y1": 9408,
+			"x2": 3232,
+			"y2": 9508,
+			"plane": 0
+		},
+		"region": "Kharidian Desert",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 8,
+		"killTargetLabel": "kalphite guardians",
+		"targetNpcIds": [
+			959,
+			962
+		]
+	},
+	{
+		"id": "kalphite_queen_kalphite_lair",
+		"displayName": "Kalphite Lair Kalphite Queen",
+		"area": {
+			"x1": 3177,
+			"y1": 9415,
+			"x2": 3195,
+			"y2": 9433,
+			"plane": 0
+		},
+		"region": "Kharidian Desert",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 1,
+		"killTargetLabel": "kalphite queens",
+		"targetNpcIds": [
+			963,
+			965
+		]
+	},
+	{
+		"id": "king_scorpion_crandor",
+		"displayName": "Crandor King Scorpion",
+		"area": {
+			"x1": 2833,
+			"y1": 3274,
+			"x2": 2870,
+			"y2": 3312,
+			"plane": 0
+		},
+		"region": "Karamja",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "king scorpions",
+		"targetNpcIds": [
+			3027
+		]
+	},
+	{
+		"id": "lava_dragon_lava_dragon_isle",
+		"displayName": "Lava Dragon Isle Lava dragon",
+		"area": {
+			"x1": 3178,
+			"y1": 3800,
+			"x2": 3232,
+			"y2": 3855,
+			"plane": 0
+		},
+		"region": "Wilderness",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "lava dragons",
+		"targetNpcIds": [
+			6593
+		]
+	},
+	{
+		"id": "mad_angel_ardeaglais",
+		"displayName": "Ardeaglais Mad Angel",
+		"area": {
+			"x1": 2523,
+			"y1": 2206,
+			"x2": 2541,
+			"y2": 2224,
+			"plane": 0
+		},
+		"region": "Other",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 1,
+		"killTargetLabel": "mad angels",
+		"targetNpcIds": [
+			16305,
+			16309
+		]
+	},
+	{
+		"id": "mithril_dragon_ancient_cavern_upper_level",
+		"displayName": "Ancient Cavern (upper level) Mithril dragon",
+		"area": {
+			"x1": 1810,
+			"y1": 5381,
+			"x2": 1856,
+			"y2": 5429,
+			"plane": 0
+		},
+		"region": "Kandarin",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "mithril dragons",
+		"targetNpcIds": [
+			2919,
+			8088,
+			8089
+		]
+	},
+	{
+		"id": "necromancer_south_west_of_shayzien",
+		"displayName": "South West of Shayzien Necromancer",
+		"area": {
+			"x1": 1471,
+			"y1": 3524,
+			"x2": 1489,
+			"y2": 3542,
+			"plane": 0
+		},
+		"region": "Great Kourend",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 1,
+		"killTargetLabel": "necromancers",
+		"targetNpcIds": [
+			11088
+		]
+	},
+	{
+		"id": "ocga_burthorpe",
+		"displayName": "Burthorpe Ocga",
+		"area": {
+			"x1": 2918,
+			"y1": 3550,
+			"x2": 2936,
+			"y2": 3568,
+			"plane": 0
+		},
+		"region": "Asgarnia",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 1,
+		"killTargetLabel": "ocgas",
+		"targetNpcIds": [
+			4108
+		]
+	},
+	{
+		"id": "outlaw_west_of_the_grand_exchange",
+		"displayName": "West of the Grand Exchange Outlaw",
+		"area": {
+			"x1": 3107,
+			"y1": 3461,
+			"x2": 3133,
+			"y2": 3486,
+			"plane": 0
+		},
+		"region": "Misthalin",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "outlaws",
+		"targetNpcIds": [
+			4167,
+			4168,
+			4169,
+			4170,
+			4171,
+			4172,
+			4173,
+			4174,
+			4175,
+			4176
+		]
+	},
+	{
+		"id": "pirate_guard_brimhaven",
+		"displayName": "Brimhaven Pirate Guard",
+		"area": {
+			"x1": 2752,
+			"y1": 3181,
+			"x2": 2787,
+			"y2": 3207,
+			"plane": 0
+		},
+		"region": "Karamja",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "pirate guards",
+		"targetNpcIds": [
+			4926
+		]
+	},
+	{
+		"id": "poltenip_nardah",
+		"displayName": "Nardah Poltenip",
+		"area": {
+			"x1": 3429,
+			"y1": 2905,
+			"x2": 3447,
+			"y2": 2923,
+			"plane": 0
+		},
+		"region": "Kharidian Desert",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 1,
+		"killTargetLabel": "poltenips",
+		"targetNpcIds": [
+			4758
+		]
+	},
+	{
+		"id": "rusty_north_of_falador",
+		"displayName": "North of Falador Rusty",
+		"area": {
+			"x1": 2970,
+			"y1": 3427,
+			"x2": 2988,
+			"y2": 3445,
+			"plane": 0
+		},
+		"region": "Asgarnia",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 1,
+		"killTargetLabel": "rustys",
+		"targetNpcIds": [
+			3281
+		]
+	},
+	{
+		"id": "sand_crab_tear_of_the_soul",
+		"displayName": "Tear of the Soul Sand Crab",
+		"area": {
+			"x1": 2306,
+			"y1": 2760,
+			"x2": 2336,
+			"y2": 2789,
+			"plane": 0
+		},
+		"region": "Other",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "sand crabs",
+		"targetNpcIds": [
+			5935,
+			5936
+		]
+	},
+	{
+		"id": "sarachnis_forthos_dungeon_burial_tomb",
+		"displayName": "Forthos Dungeon \u2014 Burial tomb Sarachnis",
+		"area": {
+			"x1": 1831,
+			"y1": 9891,
+			"x2": 1849,
+			"y2": 9909,
+			"plane": 0
+		},
+		"region": "Great Kourend",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 1,
+		"killTargetLabel": "sarachniss",
+		"targetNpcIds": [
+			8713
+		]
+	},
+	{
+		"id": "scarab_mage_sophanem_dungeon_maze_level",
+		"displayName": "Sophanem Dungeon (maze level) Scarab Mage",
+		"area": {
+			"x1": 2115,
+			"y1": 4348,
+			"x2": 2168,
+			"y2": 4420,
+			"plane": 2
+		},
+		"region": "Kharidian Desert",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "scarab mages",
+		"targetNpcIds": [
+			794,
+			799,
+			11508
+		]
+	},
+	{
+		"id": "seagull_port_piscarilius",
+		"displayName": "Port Piscarilius Seagull",
+		"area": {
+			"x1": 1797,
+			"y1": 3679,
+			"x2": 1845,
+			"y2": 3716,
+			"plane": 0
+		},
+		"region": "Great Kourend",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "seagulls",
+		"targetNpcIds": [
+			1338,
+			1339
+		]
+	},
+	{
+		"id": "skeletal_wyvern_asgarnian_ice_dungeon",
+		"displayName": "Asgarnian Ice Dungeon Skeletal Wyvern",
+		"area": {
+			"x1": 3016,
+			"y1": 9530,
+			"x2": 3087,
+			"y2": 9595,
+			"plane": 0
+		},
+		"region": "Asgarnia",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "skeletal wyverns",
+		"targetNpcIds": [
+			465,
+			466,
+			467,
+			468
+		]
+	},
+	{
+		"id": "skeleton_stronghold_of_security_sepulchre_of_death_level_4",
+		"displayName": "Stronghold of Security, Sepulchre of Death (level 4) Skeleton",
+		"area": {
+			"x1": 1948,
+			"y1": 4890,
+			"x2": 2013,
+			"y2": 4929,
+			"plane": 0
+		},
+		"region": "Misthalin",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "skeletons",
+		"targetNpcIds": [
+			2520,
+			2521,
+			2522,
+			2523,
+			2524,
+			2525,
+			2526
+		]
+	},
+	{
+		"id": "skogre_jiggig_dungeon",
+		"displayName": "Jiggig Dungeon Skogre",
+		"area": {
+			"x1": 2433,
+			"y1": 9371,
+			"x2": 2494,
+			"y2": 9469,
+			"plane": 2
+		},
+		"region": "Kandarin",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "skogres",
+		"targetNpcIds": [
+			872,
+			878,
+			879
+		]
+	},
+	{
+		"id": "soldier_lizardman_canyon_overpass",
+		"displayName": "Lizardman Canyon overpass Soldier",
+		"area": {
+			"x1": 1455,
+			"y1": 3677,
+			"x2": 1477,
+			"y2": 3748,
+			"plane": 0
+		},
+		"region": "Great Kourend",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "soldiers",
+		"targetNpcIds": [
+			11072,
+			11074,
+			11076,
+			11078,
+			11080,
+			11082,
+			11084,
+			11086
+		]
+	},
+	{
+		"id": "spider_ape_atoll",
+		"displayName": "Ape Atoll Spider",
+		"area": {
+			"x1": 2744,
+			"y1": 2754,
+			"x2": 2810,
+			"y2": 2808,
+			"plane": 0
+		},
+		"region": "Kandarin",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "spiders",
+		"targetNpcIds": [
+			5238,
+			5239
+		]
+	},
+	{
+		"id": "spider_underground_pass_dungeon",
+		"displayName": "Underground Pass (dungeon) Spider",
+		"area": {
+			"x1": 2320,
+			"y1": 9864,
+			"x2": 2373,
+			"y2": 9927,
+			"plane": 0
+		},
+		"region": "Tirannwn",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "spiders",
+		"targetNpcIds": [
+			2478,
+			3019,
+			4561
+		]
+	},
+	{
+		"id": "sulphur_nagua_neypotzli_ancient_prison",
+		"displayName": "Neypotzli - Ancient Prison Sulphur Nagua",
+		"area": {
+			"x1": 1341,
+			"y1": 9541,
+			"x2": 1387,
+			"y2": 9583,
+			"plane": 0
+		},
+		"region": "Varlamore",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "sulphur naguas",
+		"targetNpcIds": [
+			13033
+		]
+	},
+	{
+		"id": "svetlana_canifis",
+		"displayName": "Canifis Svetlana",
+		"area": {
+			"x1": 3492,
+			"y1": 3484,
+			"x2": 3510,
+			"y2": 3502,
+			"plane": 0
+		},
+		"region": "Morytania",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 1,
+		"killTargetLabel": "svetlanas",
+		"targetNpcIds": [
+			2621
+		]
+	},
+	{
+		"id": "terror_dog_tarn_s_lair",
+		"displayName": "Tarn's Lair Terror dog",
+		"area": {
+			"x1": 3163,
+			"y1": 4604,
+			"x2": 3199,
+			"y2": 4633,
+			"plane": 0
+		},
+		"region": "Morytania",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "terror dogs",
+		"targetNpcIds": [
+			6473,
+			6474
+		]
+	},
+	{
+		"id": "thorhild_miscellania_castle",
+		"displayName": "Miscellania Castle Thorhild",
+		"area": {
+			"x1": 2493,
+			"y1": 3843,
+			"x2": 2511,
+			"y2": 3861,
+			"plane": 0
+		},
+		"region": "Fremennik Province",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 1,
+		"killTargetLabel": "thorhilds",
+		"targetNpcIds": [
+			3677
+		]
+	},
+	{
+		"id": "thrower_troll_death_plateau",
+		"displayName": "Death Plateau Thrower Troll",
+		"area": {
+			"x1": 2842,
+			"y1": 3589,
+			"x2": 2879,
+			"y2": 3609,
+			"plane": 0
+		},
+		"region": "Asgarnia",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "thrower trolls",
+		"targetNpcIds": [
+			931,
+			932,
+			933,
+			934,
+			935
+		]
+	},
+	{
+		"id": "tortured_gorilla_crash_site_cavern",
+		"displayName": "Crash Site Cavern Tortured gorilla",
+		"area": {
+			"x1": 2122,
+			"y1": 5634,
+			"x2": 2160,
+			"y2": 5670,
+			"plane": 0
+		},
+		"region": "Kandarin",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "tortured gorillas",
+		"targetNpcIds": [
+			7095,
+			7150
+		]
+	},
+	{
+		"id": "twisted_banshee_catacombs_of_kourend",
+		"displayName": "Catacombs of Kourend Twisted Banshee",
+		"area": {
+			"x1": 1599,
+			"y1": 9983,
+			"x2": 1634,
+			"y2": 10007,
+			"plane": 0
+		},
+		"region": "Great Kourend",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "twisted banshees",
+		"targetNpcIds": [
+			7272
+		]
+	},
+	{
+		"id": "undead_chicken_alice_s_farm_west_of_the_ectofuntus",
+		"displayName": "Alice's farm west of the Ectofuntus Undead chicken",
+		"area": {
+			"x1": 3618,
+			"y1": 3516,
+			"x2": 3642,
+			"y2": 3540,
+			"plane": 0
+		},
+		"region": "Morytania",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "undead chickens",
+		"targetNpcIds": [
+			2993
+		]
+	},
+	{
+		"id": "wallasalki_waterbirth_dungeon_sub_level_3_room_9",
+		"displayName": "Waterbirth Dungeon (Sub-level 3 Room 9) Wallasalki",
+		"area": {
+			"x1": 2539,
+			"y1": 9942,
+			"x2": 2557,
+			"y2": 9960,
+			"plane": 0
+		},
+		"region": "Fremennik Province",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 1,
+		"killTargetLabel": "wallasalkis",
+		"targetNpcIds": [
+			5938,
+			5939
+		]
+	},
+	{
+		"id": "water_wizard_south_of_falador",
+		"displayName": "South of Falador Water wizard",
+		"area": {
+			"x1": 2981,
+			"y1": 3258,
+			"x2": 2999,
+			"y2": 3276,
+			"plane": 0
+		},
+		"region": "Asgarnia",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 1,
+		"killTargetLabel": "water wizards",
+		"targetNpcIds": [
+			1557
+		]
+	},
+	{
+		"id": "wizard_wizards_guild",
+		"displayName": "Wizards' Guild Wizard",
+		"area": {
+			"x1": 2577,
+			"y1": 3075,
+			"x2": 2604,
+			"y2": 3099,
+			"plane": 1
+		},
+		"region": "Kandarin",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 6,
+		"killTargetLabel": "wizards",
+		"targetNpcIds": [
+			3257
+		]
+	},
+	{
+		"id": "wolf_ardougne_zoo",
+		"displayName": "Ardougne Zoo Wolf",
+		"area": {
+			"x1": 2607,
+			"y1": 3274,
+			"x2": 2629,
+			"y2": 3292,
+			"plane": 0
+		},
+		"region": "Kandarin",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 4,
+		"killTargetLabel": "wolfs",
+		"targetNpcIds": [
+			106,
+			110,
+			2490,
+			2491,
+			3912
+		]
+	},
+	{
+		"id": "zogre_jiggig_dungeon_lower_level",
+		"displayName": "Jiggig Dungeon (lower level) Zogre",
+		"area": {
+			"x1": 2440,
+			"y1": 9420,
+			"x2": 2464,
+			"y2": 9449,
+			"plane": 0
+		},
+		"region": "Kandarin",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 8,
+		"killTargetLabel": "zogres",
+		"targetNpcIds": [
+			866,
+			867,
+			868,
+			869,
+			870,
+			871,
+			873,
+			874,
+			875,
+			876,
+			877
+		]
+	},
+	{
+		"id": "zombie_pirate_braindeath_island",
+		"displayName": "Braindeath Island Zombie pirate",
+		"area": {
+			"x1": 2132,
+			"y1": 5067,
+			"x2": 2171,
+			"y2": 5092,
+			"plane": 0
+		},
+		"region": "Morytania",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "zombie pirates",
+		"targetNpcIds": [
+			613,
+			614,
+			615,
+			616,
+			617,
+			618
+		]
+	},
+	{
+		"id": "zombie_pirate_harmony_island_ship",
+		"displayName": "Harmony Island ship, Zombie pirate",
+		"area": {
+			"x1": 3794,
+			"y1": 2863,
+			"x2": 3814,
+			"y2": 2883,
+			"plane": 1
+		},
+		"region": "Morytania",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 4,
+		"killTargetLabel": "zombie pirates",
+		"targetNpcIds": [
+			563,
+			565,
+			567,
+			568,
+			569,
+			571,
+			572,
+			573,
+			574,
+			575,
+			576,
+			577,
+			578,
+			579,
+			580,
+			581,
+			582,
+			584,
+			586,
+			588,
+			590,
+			592,
+			593,
+			595,
+			597,
+			599
+		]
+	},
+	{
+		"id": "zombie_tarn_s_lair",
+		"displayName": "Tarn's Lair Zombie",
+		"area": {
+			"x1": 3132,
+			"y1": 4541,
+			"x2": 3199,
+			"y2": 4570,
+			"plane": 0
+		},
+		"region": "Morytania",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "zombies",
+		"targetNpcIds": [
+			6449,
+			6450,
+			6451,
+			6452,
+			6453,
+			6454,
+			6455,
+			6456,
+			6457,
+			6458,
+			6459,
+			6460,
+			6461,
+			6462,
+			6463,
+			6464,
+			6465,
+			6466
+		]
+	},
+	{
+		"id": "zygomite_zanaris",
+		"displayName": "Zanaris Zygomite",
+		"area": {
+			"x1": 2403,
+			"y1": 4458,
+			"x2": 2428,
+			"y2": 4484,
+			"plane": 0
+		},
+		"region": "Other",
+		"completionType": "NPC_LOOT_COUNT",
+		"requiredKills": 10,
+		"killTargetLabel": "zygomites",
+		"targetNpcIds": [
+			537
+		]
+	},
+	{
+		"id": "ironwood_sunbleak_island",
+		"displayName": "Sunbleak Island Ironwood",
+		"area": {
+			"x1": 2197,
+			"y1": 2310,
+			"x2": 2234,
+			"y2": 2350,
+			"plane": 0
+		},
+		"region": "Other",
+		"completionType": "CHAT_MESSAGE_COUNT",
+		"requiredActions": 10,
+		"actionTargetLabel": "ironwood logs cut",
+		"messagePattern": "You get (?:some|an)[\\w ]+ironwood logs?\\."
+	},
+	{
+		"id": "mahogany_tlati_rainforest",
+		"displayName": "Tlati Rainforest Mahogany",
+		"area": {
+			"x1": 1253,
+			"y1": 2995,
+			"x2": 1270,
+			"y2": 3008,
+			"plane": 0
+		},
+		"region": "Varlamore",
+		"completionType": "CHAT_MESSAGE_COUNT",
+		"requiredActions": 8,
+		"actionTargetLabel": "mahogany logs cut",
+		"messagePattern": "You get (?:some|an)[\\w ]+mahogany logs?\\."
+	},
+	{
+		"id": "maple_around_the_farming_guild",
+		"displayName": "Around the Farming Guild Maple",
+		"area": {
+			"x1": 1225,
+			"y1": 3699,
+			"x2": 1299,
+			"y2": 3761,
+			"plane": 0
+		},
+		"region": "Great Kourend",
+		"completionType": "CHAT_MESSAGE_COUNT",
+		"requiredActions": 10,
+		"actionTargetLabel": "maple logs cut",
+		"messagePattern": "You get (?:some|an)[\\w ]+maple logs?\\."
+	},
+	{
+		"id": "maple_gwenith",
+		"displayName": "Gwenith Maple",
+		"area": {
+			"x1": 2204,
+			"y1": 3421,
+			"x2": 2216,
+			"y2": 3432,
+			"plane": 0
+		},
+		"region": "Tirannwn",
+		"completionType": "CHAT_MESSAGE_COUNT",
+		"requiredActions": 10,
+		"actionTargetLabel": "maple logs cut",
+		"messagePattern": "You get (?:some|an)[\\w ]+maple logs?\\."
+	},
+	{
+		"id": "maple_isle_of_souls",
+		"displayName": "Isle of Souls Maple",
+		"area": {
+			"x1": 2242,
+			"y1": 2792,
+			"x2": 2266,
+			"y2": 2825,
+			"plane": 0
+		},
+		"region": "Misthalin",
+		"completionType": "CHAT_MESSAGE_COUNT",
+		"requiredActions": 10,
+		"actionTargetLabel": "maple logs cut",
+		"messagePattern": "You get (?:some|an)[\\w ]+maple logs?\\."
+	},
+	{
+		"id": "maple_south_east_of_the_forthos_ruin",
+		"displayName": "South-east of the Forthos Ruin Maple",
+		"area": {
+			"x1": 1683,
+			"y1": 3546,
+			"x2": 1692,
+			"y2": 3555,
+			"plane": 0
+		},
+		"region": "Great Kourend",
+		"completionType": "CHAT_MESSAGE_COUNT",
+		"requiredActions": 4,
+		"actionTargetLabel": "maple logs cut",
+		"messagePattern": "You get (?:some|an)[\\w ]+maple logs?\\."
+	},
+	{
+		"id": "maple_woodcutting_guild",
+		"displayName": "Woodcutting Guild Maple",
+		"area": {
+			"x1": 1606,
+			"y1": 3486,
+			"x2": 1650,
+			"y2": 3499,
+			"plane": 0
+		},
+		"region": "Great Kourend",
+		"completionType": "CHAT_MESSAGE_COUNT",
+		"requiredActions": 10,
+		"actionTargetLabel": "maple logs cut",
+		"messagePattern": "You get (?:some|an)[\\w ]+maple logs?\\."
+	},
+	{
+		"id": "maple_woods_west_of_sinclair_mansion",
+		"displayName": "Woods west of Sinclair Mansion Maple",
+		"area": {
+			"x1": 2647,
+			"y1": 3514,
+			"x2": 2736,
+			"y2": 3598,
+			"plane": 0
+		},
+		"region": "Kandarin",
+		"completionType": "CHAT_MESSAGE_COUNT",
+		"requiredActions": 10,
+		"actionTargetLabel": "maple logs cut",
+		"messagePattern": "You get (?:some|an)[\\w ]+maple logs?\\."
+	},
+	{
+		"id": "redwood_woodcutting_guild",
+		"displayName": "Woodcutting Guild, Redwood",
+		"area": {
+			"x1": 1565,
+			"y1": 3477,
+			"x2": 1575,
+			"y2": 3497,
+			"plane": 1
+		},
+		"region": "Great Kourend",
+		"completionType": "CHAT_MESSAGE_COUNT",
+		"requiredActions": 10,
+		"actionTargetLabel": "redwood logs cut",
+		"messagePattern": "You get (?:some|an)[\\w ]+redwood logs?\\."
+	},
+	{
+		"id": "teak_the_great_conch",
+		"displayName": "The Great Conch Teak",
+		"area": {
+			"x1": 3119,
+			"y1": 2437,
+			"x2": 3141,
+			"y2": 2453,
+			"plane": 0
+		},
+		"region": "Other",
+		"completionType": "CHAT_MESSAGE_COUNT",
+		"requiredActions": 10,
+		"actionTargetLabel": "teak logs cut",
+		"messagePattern": "You get (?:some|an)[\\w ]+teak logs?\\."
+	},
+	{
+		"id": "willow_around_the_farming_guild",
+		"displayName": "Around the Farming Guild Willow",
+		"area": {
+			"x1": 1219,
+			"y1": 3676,
+			"x2": 1225,
+			"y2": 3682,
+			"plane": 0
+		},
+		"region": "Great Kourend",
+		"completionType": "CHAT_MESSAGE_COUNT",
+		"requiredActions": 1,
+		"actionTargetLabel": "willow logs cut",
+		"messagePattern": "You get (?:some|an)[\\w ]+willow logs?\\."
+	},
+	{
+		"id": "yew_cape_conch",
+		"displayName": "Cape Conch Yew",
+		"area": {
+			"x1": 3270,
+			"y1": 2331,
+			"x2": 3283,
+			"y2": 2344,
+			"plane": 0
+		},
+		"region": "Other",
+		"completionType": "CHAT_MESSAGE_COUNT",
+		"requiredActions": 6,
+		"actionTargetLabel": "yew logs cut",
+		"messagePattern": "You get (?:some|an)[\\w ]+yew logs?\\."
+	},
+	{
+		"id": "yew_deepfin_point",
+		"displayName": "Deepfin Point Yew",
+		"area": {
+			"x1": 1942,
+			"y1": 2778,
+			"x2": 1957,
+			"y2": 2792,
+			"plane": 0
+		},
+		"region": "Other",
+		"completionType": "CHAT_MESSAGE_COUNT",
+		"requiredActions": 10,
+		"actionTargetLabel": "yew logs cut",
+		"messagePattern": "You get (?:some|an)[\\w ]+yew logs?\\."
+	},
+	{
+		"id": "yew_shipyard",
+		"displayName": "Shipyard Yew",
+		"area": {
+			"x1": 2059,
+			"y1": 2703,
+			"x2": 2089,
+			"y2": 2737,
+			"plane": 0
+		},
+		"region": "Other",
+		"completionType": "CHAT_MESSAGE_COUNT",
+		"requiredActions": 8,
+		"actionTargetLabel": "yew logs cut",
+		"messagePattern": "You get (?:some|an)[\\w ]+yew logs?\\."
+	},
+	{
+		"id": "al_kharid_palace",
+		"displayName": "Al Kharid Palace",
+		"area": {
+			"x1": 3283,
+			"y1": 3160,
+			"x2": 3303,
+			"y2": 3180,
+			"plane": 0
+		},
+		"region": "Kharidian Desert",
+		"completionType": "HOLD",
+		"holdSeconds": 10
+	},
+	{
+		"id": "barbarian_village",
+		"displayName": "Barbarian Village",
+		"area": {
+			"x1": 3070,
+			"y1": 3417,
+			"x2": 3090,
+			"y2": 3437,
+			"plane": 0
+		},
+		"region": "Misthalin",
+		"completionType": "HOLD",
+		"holdSeconds": 10
+	},
+	{
+		"id": "burthorpe",
+		"displayName": "Burthorpe",
+		"area": {
+			"x1": 2860,
+			"y1": 3534,
+			"x2": 2880,
+			"y2": 3554,
+			"plane": 0
+		},
+		"region": "Asgarnia",
+		"completionType": "HOLD",
+		"holdSeconds": 10
+	},
+	{
+		"id": "camelot_castle",
+		"displayName": "Camelot Castle",
+		"area": {
+			"x1": 2748,
+			"y1": 3497,
+			"x2": 2768,
+			"y2": 3517,
+			"plane": 0
+		},
+		"region": "Kandarin",
+		"completionType": "HOLD",
+		"holdSeconds": 10
+	},
+	{
+		"id": "catherby",
+		"displayName": "Catherby",
+		"area": {
+			"x1": 2804,
+			"y1": 3433,
+			"x2": 2824,
+			"y2": 3453,
+			"plane": 0
+		},
+		"region": "Kandarin",
+		"completionType": "HOLD",
+		"holdSeconds": 10
+	},
+	{
+		"id": "draynor_village",
+		"displayName": "Draynor Village",
+		"area": {
+			"x1": 3093,
+			"y1": 3255,
+			"x2": 3113,
+			"y2": 3275,
+			"plane": 0
+		},
+		"region": "Misthalin",
+		"completionType": "HOLD",
+		"holdSeconds": 10
+	},
+	{
+		"id": "falador_park",
+		"displayName": "Falador Park",
+		"area": {
+			"x1": 2993,
+			"y1": 3370,
+			"x2": 3013,
+			"y2": 3390,
+			"plane": 0
+		},
+		"region": "Asgarnia",
+		"completionType": "HOLD",
+		"holdSeconds": 10
+	},
+	{
+		"id": "grand_exchange",
+		"displayName": "Grand Exchange",
+		"area": {
+			"x1": 3155,
+			"y1": 3480,
+			"x2": 3175,
+			"y2": 3500,
+			"plane": 0
+		},
+		"region": "Misthalin",
+		"completionType": "HOLD",
+		"holdSeconds": 10
+	},
+	{
+		"id": "port_sarim",
+		"displayName": "Port Sarim",
+		"area": {
+			"x1": 3019,
+			"y1": 3211,
+			"x2": 3039,
+			"y2": 3231,
+			"plane": 0
+		},
+		"region": "Asgarnia",
+		"completionType": "HOLD",
+		"holdSeconds": 10
+	},
+	{
+		"id": "yanille",
+		"displayName": "Yanille",
+		"area": {
+			"x1": 2567,
+			"y1": 3080,
+			"x2": 2587,
+			"y2": 3100,
+			"plane": 0
+		},
+		"region": "Kandarin",
+		"completionType": "HOLD",
+		"holdSeconds": 10
+	}
+]
