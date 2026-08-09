@@ -8,20 +8,6 @@ import net.runelite.client.config.ConfigItem;
 public interface GielinorCartographyConfig extends Config
 {
 	@ConfigItem(
-		keyName = "serverUrl",
-		name = "Server URL",
-		description = "Base URL of the Gielinor Cartography backend. LAN-only for now, no auth."
-	)
-	default String serverUrl()
-	{
-		// Points at the LAN Linux server hosting the backend (2026-08-09) - was 127.0.0.1 while
-		// the backend ran on the same dev machine as the client. If you saved a value in the
-		// config panel before this changed, it won't pick up this new default automatically -
-		// update it there manually.
-		return "http://192.168.50.170:8000";
-	}
-
-	@ConfigItem(
 		keyName = "stolenTaskChatNotification",
 		name = "Chat message when a task is stolen from you",
 		description = "Sends a chat message when a task you own gets claimed by someone else."

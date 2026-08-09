@@ -30,22 +30,23 @@ class GielinorCartographyClient
 {
 	private static final MediaType JSON = MediaType.parse("application/json; charset=utf-8");
 	private static final int HTTP_LOCKED = 423;
+	// The one and only backend this plugin ever talks to - not user-configurable, since there's
+	// nothing meaningful to point it at besides the real Gielinor Cartography server.
+	private static final String SERVER_URL = "https://gc.gielinorcartography.uk";
 
 	private final OkHttpClient okHttpClient;
 	private final Gson gson;
-	private final GielinorCartographyConfig config;
 
 	@Inject
-	GielinorCartographyClient(OkHttpClient okHttpClient, Gson gson, GielinorCartographyConfig config)
+	GielinorCartographyClient(OkHttpClient okHttpClient, Gson gson)
 	{
 		this.okHttpClient = okHttpClient;
 		this.gson = gson;
-		this.config = config;
 	}
 
 	void getTaskState(String taskId, Consumer<TaskState> onSuccess, Consumer<String> onError)
 	{
-		HttpUrl url = HttpUrl.parse(config.serverUrl() + "/task")
+		HttpUrl url = HttpUrl.parse(SERVER_URL + "/task")
 			.newBuilder()
 			.addQueryParameter("id", taskId)
 			.build();
@@ -86,7 +87,7 @@ class GielinorCartographyClient
 	void getAllTaskStates(Consumer<List<TaskState>> onSuccess, Consumer<String> onError)
 	{
 		Request request = new Request.Builder()
-			.url(config.serverUrl() + "/tasks")
+			.url(SERVER_URL + "/tasks")
 			.build();
 
 		okHttpClient.newCall(request).enqueue(new Callback()
@@ -125,7 +126,7 @@ class GielinorCartographyClient
 	void getLeaderboard(Consumer<List<PlayerRanking>> onSuccess, Consumer<String> onError)
 	{
 		Request request = new Request.Builder()
-			.url(config.serverUrl() + "/leaderboard")
+			.url(SERVER_URL + "/leaderboard")
 			.build();
 
 		okHttpClient.newCall(request).enqueue(new Callback()
@@ -166,7 +167,7 @@ class GielinorCartographyClient
 		String json = gson.toJson(new CompleteRequest(taskId, player, totalLevel, playerToken));
 		RequestBody body = RequestBody.create(JSON, json);
 		Request request = new Request.Builder()
-			.url(config.serverUrl() + "/complete")
+			.url(SERVER_URL + "/complete")
 			.post(body)
 			.build();
 

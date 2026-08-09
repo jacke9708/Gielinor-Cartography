@@ -22,11 +22,12 @@ Ownership, points, and a leaderboard are synced across every player through a sh
 - Get a chat message and an OS notification (both toggleable in the plugin's settings) if someone
   steals a task you own.
 
-## Requirements
+## Backend
 
-This plugin talks to a small backend server to sync task ownership and points - see
-[`backend/README.md`](backend/README.md) for running it. Set the server's address in the
-plugin's config panel ("Server URL").
+Task ownership, points, and the leaderboard are synced through a backend server - the plugin
+connects to it automatically, nothing to configure. See [`backend/README.md`](backend/README.md)
+for how that server is run (maintainer-facing, not something an installer of this plugin needs
+to touch).
 
 ## Status
 

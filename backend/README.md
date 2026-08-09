@@ -1,27 +1,25 @@
 # Gielinor Cartography backend
 
+Internal ops notes for the one production server this plugin talks to - not something an
+installer of the plugin ever needs to run themselves. The plugin hardcodes the server address
+(`SERVER_URL` in `GielinorCartographyClient.java`) rather than exposing it as a config option,
+since there's only ever one real backend to point at.
+
 Requires nothing beyond Python 3 (uses only the standard library - `http.server` and `sqlite3`),
 so there's no `pip install` step. Task list comes from `tasks.json` at the project root - the
 same file the plugin bundles, so there's one source of truth.
 
-## Run it
+## Running it
 
-```
-python server.py
-```
+Deployed as a systemd service (`gielinor-cartography.service`, included in this directory) on the
+Linux host behind the Cloudflare Tunnel - `systemctl restart gielinor-cartography` after
+redeploying `server.py` or `tasks.json`. To set this up fresh on a new host: copy the unit file to
+`/etc/systemd/system/`, then `systemctl enable --now gielinor-cartography`.
 
-Listens on `0.0.0.0:8000`, so it's reachable from other machines on your LAN at
-`http://<this-machine's-LAN-IP>:8000`, not just `localhost`. A SQLite file
-(`gielinor_cartography.db`) is created next to the script on first run, seeded with every task
-from `tasks.json` (unowned, no cooldown, until claimed).
-
-Point the RuneLite plugin's "Server URL" config at whichever address you use to reach it -
-`http://127.0.0.1:8000` if the client and server are on the same machine (not `localhost`;
-on Windows that can resolve to the IPv6 loopback first, which this server doesn't bind, causing
-connection errors), or the LAN IP/domain for other machines.
-
-A `gielinor-cartography.service` systemd unit file is included for running this persistently on a
-Linux host - copy it to `/etc/systemd/system/`, then `systemctl enable --now gielinor-cartography`.
+Listens on `0.0.0.0:8000` locally; the Cloudflare Tunnel is what makes it reachable at
+`SERVER_URL`, not a directly-exposed port. A SQLite file (`gielinor_cartography.db`) is created
+next to the script on first run, seeded with every task from `tasks.json` (unowned, no cooldown,
+until claimed).
 
 ## API
 
