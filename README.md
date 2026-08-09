@@ -28,15 +28,15 @@ Ownership, points, and a leaderboard are synced across every player through a sh
 
 ## Backend
 
-Task ownership, points, and the leaderboard are synced through a backend server - the plugin
-connects to it automatically, nothing to configure. See [`backend/README.md`](backend/README.md)
-for how that server is run (maintainer-facing, not something an installer of this plugin needs
-to touch).
+The plugin connects to its backend automatically - nothing to configure. See
+[`backend/README.md`](backend/README.md) for how that server is run (maintainer-facing, not
+something an installer of this plugin needs to touch).
 
 ## Status
 
-Functional prototype with a growing task roster (100+ tasks across combat, woodcutting,
-stand-in-zone, and agility) generated in part via a companion (separate, not-committed-here) tool
-that scrapes the OSRS Wiki for real monster/location data as candidates for manual review. Claims
-are protected by a lightweight per-installation token (not full account auth) to stop casual
-spoofing of another player's claims over plain HTTP.
+Beta. The core loop (claiming, stealing, points, leaderboard) is stable, but the task roster
+(100+ tasks across combat, woodcutting, stand-in-zone, and agility so far, generated in part via
+a companion, not-committed-here tool that scrapes the OSRS Wiki for real monster/location data as
+candidates for manual review) is still growing, with more variety - especially non-combat tasks -
+planned. Claims are protected by a lightweight per-installation token (not full account auth) to
+stop casual spoofing of another player's claims over plain HTTP.
