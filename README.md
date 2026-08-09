@@ -25,9 +25,7 @@ Ownership, points, and a leaderboard are synced across every player through a sh
 ## Requirements
 
 This plugin talks to a small backend server to sync task ownership and points - see
-[`backend/README.md`](backend/README.md) for running it. Set the server's address in the
-plugin's config panel ("Server URL").
-
+[`backend/README.md`](backend/README.md)
 ## Status
 
 Functional prototype with a growing task roster (100+ tasks across combat, woodcutting,
