@@ -2,8 +2,6 @@ package com.gielinorcartography;
 
 import com.google.gson.Gson;
 import com.google.inject.Provides;
-import java.awt.Color;
-import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 import java.util.Collections;
 import java.util.HashMap;
@@ -35,6 +33,7 @@ import net.runelite.client.plugins.PluginDescriptor;
 import net.runelite.client.ui.ClientToolbar;
 import net.runelite.client.ui.NavigationButton;
 import net.runelite.client.ui.overlay.worldmap.WorldMapPointManager;
+import net.runelite.client.util.ImageUtil;
 
 @Slf4j
 @PluginDescriptor(
@@ -177,14 +176,7 @@ public class GielinorCartographyPlugin extends Plugin
 
 	private static BufferedImage buildNavIcon()
 	{
-		BufferedImage icon = new BufferedImage(16, 16, BufferedImage.TYPE_INT_ARGB);
-		Graphics2D g = icon.createGraphics();
-		g.setColor(Color.WHITE);
-		g.fillOval(1, 1, 14, 14);
-		g.setColor(Color.BLACK);
-		g.drawOval(1, 1, 13, 13);
-		g.dispose();
-		return icon;
+		return ImageUtil.loadImageResource(GielinorCartographyPlugin.class, "icon.png");
 	}
 
 	private void refreshAll()

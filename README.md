@@ -1,5 +1,7 @@
 # Gielinor Cartography
 
+![Gielinor Cartography screenshot](images/screenshot.png)
+
 A RuneLite plugin that brings Turf-style territory control to Old School RuneScape. Certain
 in-game locations ("tasks" - a combat kill count, a woodcutting spot, a stand-in-zone landmark,
 or an agility course) can be claimed and stolen by whichever player last completes them.
