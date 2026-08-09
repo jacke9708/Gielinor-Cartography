@@ -21,6 +21,8 @@ Ownership, points, and a leaderboard are synced across every player through a sh
 - A sidebar panel (Tasks tab) lists every task's status with category/region filters, and shows a
   colored dot on the real world map for each one. A second tab shows the leaderboard, filterable
   by total-level tier.
+
+  ![Leaderboard tab](images/leaderboard.png)
 - Get a chat message and an OS notification (both toggleable in the plugin's settings) if someone
   steals a task you own.
 
